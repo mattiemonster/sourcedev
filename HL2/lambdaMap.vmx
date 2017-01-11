@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6412"
-	"mapversion" "192"
+	"mapversion" "193"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "192"
+	"mapversion" "193"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -7281,35 +7281,6 @@ entity
 }
 entity
 {
-	"id" "3203"
-	"classname" "infodecal"
-	"texture" "decals/decalshipsign005d"
-	"origin" "-485.918 -85.3807 67.7858"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[1000 10500]"
-	}
-}
-entity
-{
-	"id" "3212"
-	"classname" "infodecal"
-	"angles" "0 0 0"
-	"texture" "decals/decalshipsign004e"
-	"origin" "-486 -86 71.9527"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[1000 12000]"
-	}
-}
-entity
-{
 	"id" "3230"
 	"classname" "infodecal"
 	"texture" "decals/lambdaspray_2a"
@@ -7400,6 +7371,34 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[1000 -12768]"
+	}
+}
+entity
+{
+	"id" "3709"
+	"classname" "infodecal"
+	"texture" "decals/decalshipsign005d"
+	"origin" "-474.764 -86.344 71.1021"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "3712"
+	"classname" "infodecal"
+	"texture" "decals/decalshipsign004e"
+	"origin" "-475.361 -86.9686 67.4844"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
 	}
 }
 cameras
