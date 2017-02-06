@@ -1,0 +1,510 @@
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\ep2\materials
+Loading C:\Users\Matthew\OneDrive\Source Dev Repos\sourcedev\HL2-Mappack\maps\DetailingTest1.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\half-life 2\ep2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity env_spark (-380.00 72.00 120.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (4660 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 24 texinfos to 15
+Reduced 4 texdatas to 4 (94 bytes to 94)
+Writing C:\Users\Matthew\OneDrive\Source Dev Repos\sourcedev\HL2-Mappack\maps\DetailingTest1.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\users\matthew\onedrive\source dev repos\sourcedev\hl2-mappack\maps\DetailingTest1.bsp
+reading c:\users\matthew\onedrive\source dev repos\sourcedev\hl2-mappack\maps\DetailingTest1.prt
+LoadPortals: couldn't read c:\users\matthew\onedrive\source dev repos\sourcedev\hl2-mappack\maps\DetailingTest1.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\users\matthew\onedrive\source dev repos\sourcedev\hl2-mappack\maps\DetailingTest1.bsp
+No vis information, direct lighting only.
+39 faces
+5264 square feet [758158.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+5 direct lights
+0..
+WARNING: Too many light styles on a face at (8.000000, 232.000000, 127.000000)
+
+WARNING: Too many light styles on a face at (8.000000, 232.000000, 17.000000)
+.
+WARNING: Too many light styles on a face at (495.000000, 110.000000, 120.000000)
+1
+WARNING: Too many light styles on a face at (495.000000, 70.000000, 124.000000)
+.
+WARNING: Too many light styles on a face at (495.000000, 22.000000, 120.000000)
+.
+WARNING: Too many light styles on a face at (504.000000, 65.000000, 116.000000)
+.
+WARNING: Too many light styles on a face at (504.000000, 107.000000, 116.000000)
+2
+WARNING: Too many light styles on a face at (504.000000, 100.000000, 119.000000)
+.
+WARNING: Too many light styles on a face at (8.000000, 17.000000, 120.000000)
+
+WARNING: Too many light styles on a face at (504.000000, 102.000000, 17.000000)
+.
+WARNING: Too many light styles on a face at (8.000000, 239.000000, 120.000000)
+.3.
+WARNING: Too many light styles on a face at (-232.000000, 116.000000, 127.000000)
+..4.
+WARNING: Too many light styles on a face at (-216.000000, 232.000000, 127.000000)
+.
+WARNING: Too many light styles on a face at (-495.000000, 24.000000, 120.000000)
+.5.
+WARNING: Too many light styles on a face at (-488.000000, 136.000000, 127.000000)
+.
+WARNING: Too many light styles on a face at (-231.999969, 232.000000, 17.000000)
+.
+WARNING: Too many light styles on a face at (-216.000000, 17.000000, 120.000000)
+6..
+WARNING: Too many light styles on a face at (-216.000000, 239.000000, 120.000000)
+.7..
+WARNING: Too many light styles on a face at (-223.000000, 124.000000, 120.000000)
+.8.
+WARNING: Too many light styles on a face at (-232.000000, 119.000000, 120.000000)
+.
+WARNING: Too many light styles on a face at (-232.000000, 73.000000, 120.000000)
+.
+WARNING: Too many light styles on a face at (-223.000000, 20.000000, 120.000000)
+9...10Build Patch/Sample Hash Table(s).....Done<0.0002 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 12/8192          144/98304    ( 0.1%) 
+brushsides              72/65536         576/524288   ( 0.1%) 
+planes                  60/65536        1200/1310720  ( 0.1%) 
+vertexes                98/65536        1176/786432   ( 0.1%) 
+nodes                   50/65536        1600/2097152  ( 0.1%) 
+texinfos                15/12288        1080/884736   ( 0.1%) 
+texdata                  4/2048          128/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   39/65536        2184/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               25/65536        1400/3670016  ( 0.0%) 
+leaves                  52/65536        1664/2097152  ( 0.1%) 
+leaffaces               41/65536          82/131072   ( 0.1%) 
+leafbrushes             17/65536          34/131072   ( 0.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              280/512000       1120/2048000  ( 0.1%) 
+edges                  182/256000        728/1024000  ( 0.1%) 
+LDR worldlights          5/8192          440/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              2/32768          20/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            42/65536          84/131072   ( 0.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      100948/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        9252/393216   ( 2.4%) 
+LDR ambient table       52/65536         208/262144   ( 0.1%) 
+HDR ambient table       52/65536         208/262144   ( 0.1%) 
+LDR leaf ambient        35/65536         980/1835008  ( 0.1%) 
+HDR leaf ambient        52/65536        1456/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105687/0        ( 0.0%) 
+physics               [variable]        4660/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 102
+Writing c:\users\matthew\onedrive\source dev repos\sourcedev\hl2-mappack\maps\DetailingTest1.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\users\matthew\onedrive\source dev repos\sourcedev\hl2-mappack\maps\DetailingTest1.bsp
+No vis information, direct lighting only.
+39 faces
+5264 square feet [758158.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+5 direct lights
+0...
+WARNING: Too many light styles on a face at (495.000000, 110.000000, 120.000000)
+
+WARNING: Too many light styles on a face at (8.000000, 232.000000, 127.000000)
+
+WARNING: Too many light styles on a face at (8.000000, 232.000000, 17.000000)
+
+WARNING: Too many light styles on a face at (504.000000, 102.000000, 17.000000)
+1
+WARNING: Too many light styles on a face at (495.000000, 70.000000, 124.000000)
+.
+WARNING: Too many light styles on a face at (495.000000, 22.000000, 120.000000)
+.
+WARNING: Too many light styles on a face at (504.000000, 65.000000, 116.000000)
+.
+WARNING: Too many light styles on a face at (504.000000, 107.000000, 116.000000)
+2
+WARNING: Too many light styles on a face at (504.000000, 100.000000, 119.000000)
+.
+WARNING: Too many light styles on a face at (8.000000, 17.000000, 120.000000)
+.
+WARNING: Too many light styles on a face at (8.000000, 239.000000, 120.000000)
+.3
+WARNING: Too many light styles on a face at (-488.000000, 136.000000, 127.000000)
+.
+WARNING: Too many light styles on a face at (-232.000000, 116.000000, 127.000000)
+.
+WARNING: Too many light styles on a face at (-216.000000, 232.000000, 127.000000)
+.4..
+WARNING: Too many light styles on a face at (-231.999969, 232.000000, 17.000000)
+.
+WARNING: Too many light styles on a face at (-495.000000, 24.000000, 120.000000)
+5...
+WARNING: Too many light styles on a face at (-216.000000, 17.000000, 120.000000)
+6..
+WARNING: Too many light styles on a face at (-216.000000, 239.000000, 120.000000)
+.7.
+WARNING: Too many light styles on a face at (-223.000000, 124.000000, 120.000000)
+..8
+WARNING: Too many light styles on a face at (-223.000000, 20.000000, 120.000000)
+.
+WARNING: Too many light styles on a face at (-232.000000, 119.000000, 120.000000)
+..9
+WARNING: Too many light styles on a face at (-232.000000, 73.000000, 120.000000)
+...10Build Patch/Sample Hash Table(s).....Done<0.0003 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 12/8192          144/98304    ( 0.1%) 
+brushsides              72/65536         576/524288   ( 0.1%) 
+planes                  60/65536        1200/1310720  ( 0.1%) 
+vertexes                98/65536        1176/786432   ( 0.1%) 
+nodes                   50/65536        1600/2097152  ( 0.1%) 
+texinfos                15/12288        1080/884736   ( 0.1%) 
+texdata                  4/2048          128/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   39/65536        2184/3670016  ( 0.1%) 
+hdr faces               39/65536        2184/3670016  ( 0.1%) 
+origfaces               25/65536        1400/3670016  ( 0.0%) 
+leaves                  52/65536        1664/2097152  ( 0.1%) 
+leaffaces               41/65536          82/131072   ( 0.1%) 
+leafbrushes             17/65536          34/131072   ( 0.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              280/512000       1120/2048000  ( 0.1%) 
+edges                  182/256000        728/1024000  ( 0.1%) 
+LDR worldlights          5/8192          440/720896   ( 0.1%) 
+HDR worldlights          5/8192          440/720896   ( 0.1%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              2/32768          20/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            42/65536          84/131072   ( 0.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      100948/0        ( 0.0%) 
+HDR lightdata         [variable]      100948/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        9252/393216   ( 2.4%) 
+LDR ambient table       52/65536         208/262144   ( 0.1%) 
+HDR ambient table       52/65536         208/262144   ( 0.1%) 
+LDR leaf ambient        35/65536         980/1835008  ( 0.1%) 
+HDR leaf ambient        35/65536         980/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105687/0        ( 0.0%) 
+physics               [variable]        4660/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 102
+Writing c:\users\matthew\onedrive\source dev repos\sourcedev\hl2-mappack\maps\DetailingTest1.bsp
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\ep2\materials
+Loading C:\Users\Matthew\OneDrive\Source Dev Repos\sourcedev\HL2-Mappack\maps\DetailingTest1.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\half-life 2\ep2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity env_spark (-380.00 72.00 120.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (4660 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 24 texinfos to 15
+Reduced 4 texdatas to 4 (94 bytes to 94)
+Writing C:\Users\Matthew\OneDrive\Source Dev Repos\sourcedev\HL2-Mappack\maps\DetailingTest1.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\users\matthew\onedrive\source dev repos\sourcedev\hl2-mappack\maps\DetailingTest1.bsp
+reading c:\users\matthew\onedrive\source dev repos\sourcedev\hl2-mappack\maps\DetailingTest1.prt
+LoadPortals: couldn't read c:\users\matthew\onedrive\source dev repos\sourcedev\hl2-mappack\maps\DetailingTest1.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\users\matthew\onedrive\source dev repos\sourcedev\hl2-mappack\maps\DetailingTest1.bsp
+No vis information, direct lighting only.
+39 faces
+5264 square feet [758158.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+4 direct lights
+0...
+WARNING: Too many light styles on a face at (504.000000, 102.000000, 17.000000)
+
+WARNING: Too many light styles on a face at (495.000000, 110.000000, 120.000000)
+1
+WARNING: Too many light styles on a face at (495.000000, 70.000000, 124.000000)
+
+WARNING: Too many light styles on a face at (72.000008, 232.000000, 127.000000)
+
+WARNING: Too many light styles on a face at (72.000008, 232.000000, 17.000000)
+...2
+WARNING: Too many light styles on a face at (504.000000, 100.000000, 119.000000)
+
+WARNING: Too many light styles on a face at (504.000000, 107.000000, 116.000000)
+..
+WARNING: Too many light styles on a face at (136.000000, 239.000000, 120.000000)
+.3.
+WARNING: Too many light styles on a face at (-232.000000, 116.000000, 127.000000)
+..4.
+WARNING: Too many light styles on a face at (-56.000000, 184.000000, 127.000000)
+
+WARNING: Too many light styles on a face at (-488.000000, 136.000000, 127.000000)
+
+WARNING: Too many light styles on a face at (-231.999969, 232.000000, 17.000000)
+.
+WARNING: Too many light styles on a face at (-495.000000, 24.000000, 120.000000)
+.5...6...7...8.
+WARNING: Too many light styles on a face at (-232.000000, 119.000000, 120.000000)
+..9...10Build Patch/Sample Hash Table(s).....Done<0.0002 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 12/8192          144/98304    ( 0.1%) 
+brushsides              72/65536         576/524288   ( 0.1%) 
+planes                  60/65536        1200/1310720  ( 0.1%) 
+vertexes                98/65536        1176/786432   ( 0.1%) 
+nodes                   50/65536        1600/2097152  ( 0.1%) 
+texinfos                15/12288        1080/884736   ( 0.1%) 
+texdata                  4/2048          128/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   39/65536        2184/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               25/65536        1400/3670016  ( 0.0%) 
+leaves                  52/65536        1664/2097152  ( 0.1%) 
+leaffaces               41/65536          82/131072   ( 0.1%) 
+leafbrushes             17/65536          34/131072   ( 0.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              280/512000       1120/2048000  ( 0.1%) 
+edges                  182/256000        728/1024000  ( 0.1%) 
+LDR worldlights          4/8192          352/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              2/32768          20/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            42/65536          84/131072   ( 0.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      100628/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        8569/393216   ( 2.2%) 
+LDR ambient table       52/65536         208/262144   ( 0.1%) 
+HDR ambient table       52/65536         208/262144   ( 0.1%) 
+LDR leaf ambient        35/65536         980/1835008  ( 0.1%) 
+HDR leaf ambient        52/65536        1456/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105687/0        ( 0.0%) 
+physics               [variable]        4660/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 102
+Writing c:\users\matthew\onedrive\source dev repos\sourcedev\hl2-mappack\maps\DetailingTest1.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\users\matthew\onedrive\source dev repos\sourcedev\hl2-mappack\maps\DetailingTest1.bsp
+No vis information, direct lighting only.
+39 faces
+5264 square feet [758158.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+4 direct lights
+0.
+WARNING: Too many light styles on a face at (72.000008, 232.000000, 127.000000)
+
+WARNING: Too many light styles on a face at (72.000008, 232.000000, 17.000000)
+.
+WARNING: Too many light styles on a face at (504.000000, 102.000000, 17.000000)
+.
+WARNING: Too many light styles on a face at (495.000000, 110.000000, 120.000000)
+1
+WARNING: Too many light styles on a face at (495.000000, 70.000000, 124.000000)
+...
+WARNING: Too many light styles on a face at (504.000000, 107.000000, 116.000000)
+2
+WARNING: Too many light styles on a face at (504.000000, 100.000000, 119.000000)
+..
+WARNING: Too many light styles on a face at (136.000000, 239.000000, 120.000000)
+.3..
+WARNING: Too many light styles on a face at (-488.000000, 136.000000, 127.000000)
+.4.
+WARNING: Too many light styles on a face at (-231.999969, 232.000000, 17.000000)
+.
+WARNING: Too many light styles on a face at (-495.000000, 24.000000, 120.000000)
+.
+WARNING: Too many light styles on a face at (-232.000000, 116.000000, 127.000000)
+5...
+WARNING: Too many light styles on a face at (-56.000000, 184.000000, 127.000000)
+6...7...8..
+WARNING: Too many light styles on a face at (-232.000000, 119.000000, 120.000000)
+.9...10Build Patch/Sample Hash Table(s).....Done<0.0002 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 12/8192          144/98304    ( 0.1%) 
+brushsides              72/65536         576/524288   ( 0.1%) 
+planes                  60/65536        1200/1310720  ( 0.1%) 
+vertexes                98/65536        1176/786432   ( 0.1%) 
+nodes                   50/65536        1600/2097152  ( 0.1%) 
+texinfos                15/12288        1080/884736   ( 0.1%) 
+texdata                  4/2048          128/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   39/65536        2184/3670016  ( 0.1%) 
+hdr faces               39/65536        2184/3670016  ( 0.1%) 
+origfaces               25/65536        1400/3670016  ( 0.0%) 
+leaves                  52/65536        1664/2097152  ( 0.1%) 
+leaffaces               41/65536          82/131072   ( 0.1%) 
+leafbrushes             17/65536          34/131072   ( 0.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              280/512000       1120/2048000  ( 0.1%) 
+edges                  182/256000        728/1024000  ( 0.1%) 
+LDR worldlights          4/8192          352/720896   ( 0.0%) 
+HDR worldlights          4/8192          352/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              2/32768          20/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            42/65536          84/131072   ( 0.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      100628/0        ( 0.0%) 
+HDR lightdata         [variable]      100628/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        8569/393216   ( 2.2%) 
+LDR ambient table       52/65536         208/262144   ( 0.1%) 
+HDR ambient table       52/65536         208/262144   ( 0.1%) 
+LDR leaf ambient        35/65536         980/1835008  ( 0.1%) 
+HDR leaf ambient        35/65536         980/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105687/0        ( 0.0%) 
+physics               [variable]        4660/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 102
+Writing c:\users\matthew\onedrive\source dev repos\sourcedev\hl2-mappack\maps\DetailingTest1.bsp
+0 seconds elapsed
